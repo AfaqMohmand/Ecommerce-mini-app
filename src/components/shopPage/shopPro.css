@@ -1,0 +1,31 @@
+.externalCss{
+    display: grid;
+    grid-template-columns: 2fr 2fr 6fr;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+.filter__widget{
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.filter__widget select:focus{
+    outline: none !important;
+    order: none;  
+}
+.selectBar{
+    padding:10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);;
+}
+.search__box{
+    box-shadow: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+.search__box::placeholder{
+    text-align: center;
+    width: 90%;
+}
